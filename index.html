@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href=".">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/glyph-neue/64/FA5252/finish-flag.png" />
+    <title>Async Race</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header-btn-blocks">
+            <div class="btn-boxs">
+                <button class="btn-to-garage btn" id="to_garage">to garage</button>
+            </div>
+            <div class="btn-boxs">
+                <button class="btn-to-winners btn" id="to_winners">to winners</button>
+            </div>
+        </div>
+        <div class="container" id="container">
+            <div class="color-blocks">
+                <div class="create-cl-box" id="create">
+                    <input type="ext" name="name" id="create-name">
+                    <input type="color" class="color" id="create-color"></input>
+                    <button class="btn-create">create</button>
+                </div>
+                <div class="update-cl-box" id="update">
+                    <input type="text" name="name" id="update-name" disabled>
+                    <input type="color" class="color" id="update-color" disabled></input>
+                    <button class="btn-update btn">update</button>
+                </div>
+            </div>
+            <div class="btn-blocks">
+                <button class="btn btn-race" id="race">Race</button>
+                <button class="btn btn-reset" id="reset">Reset</button>
+                <button class="btn generator" id="generator">Generate Cars</button>
+            </div>
+            <div class=" main-page" id="garage">
+                <h1>Garege ()</h1>
+                <h3>Page #()</h3>
+                <div class="cars-bloks" id="cars_bloks">
+    
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="prev-item">
+                    <button class="btn btn-prev" disabled id="prev">Prev</button>
+                </div>
+                <div class="next-item">
+                    <button class="btn btn-next" disabled id="next">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="winners-content" id="winners_content">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
